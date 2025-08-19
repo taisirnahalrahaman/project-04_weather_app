@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- All CSS files should be linked here -->
+     <link rel="stylesheet" href="css/style.css">
+    <!-- All CSS files should be linked here -->
+</head>
+<body>
+    <div class="app_container">
+        <header class="app_header">
+            <h1>Weather Explorer</h1>
+            <p>Stay updated with the latest weather conditions</p>
+        </header>
+
+        <div class="search_container">
+            <input type="text" id="city" placeholder="Enter city name...">
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <div class="weather_container">
+            <section class="current_weather">
+                <div class="icon">
+                    <!-- Current Weather Icon -->
+                </div>
+                <div class="info">
+                    <h2 id="cityName">City</h2>
+                    <p id="temperature">--°C</p>
+                    <p id="description">Description: --</p>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <!-- Forecast Days -->
+                <div class="day">
+                    <p class="weekday">Day</p>
+                    <div class="icon"></div>
+                    <p class="temp">--°C</p>
+                </div>
+                <div class="day">
+                    <p class="weekday">Day</p>
+                    <div class="icon"></div>
+                    <p class="temp">--°C</p>
+                </div>
+                <div class="day">
+                    <p class="weekday">Day</p>
+                    <div class="icon"></div>
+                    <p class="temp">--°C</p>
+                </div>
+                <div class="day">
+                    <p class="weekday">Day</p>
+                    <div class="icon"></div>
+                    <p class="temp">--°C</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- All JS files should be linked here -->
+     <script src="js/script.js"></script>
+    <!-- All JS files should be linked here -->
+</body>
+</html>
